@@ -1,3 +1,4 @@
+#Importamos las librerías matplotlib para graficar y pandas para obtener nuestro dataframe
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -26,3 +27,8 @@ plt.ylabel('Porcentaje de Uso (%)')
 plt.xlabel('Lenguaje de Programación')
 plt.xticks(rotation=45)
 plt.show()
+
+#En este gráfico de barras podemos comparar los lenguajes de programación de mayor uso en la actualidad 
+#Este es de suma utilidad al momento del desarrollo de proyectos de aplicaciones o sistemas digitales 
+#en relación a la compatibilidad, facilidad de uso y documentación. Así como para establecer la ruta 
+#que llevará el proyecto
